@@ -1,0 +1,35 @@
+{% set groups = h.get_featured_groups(10) %}
+
+
+	<section class="box  module module-narrow module-shallow">
+	
+		<header class="module-heading">
+			<div class="media-content">
+				<h3 class="media-heading">{{ _('Categorie') }}</h3>
+			</div>
+		</header>
+		<ul class="unstyled dataset-list">
+			{% for group in groups %}
+
+				<li class="dataset-item module-content">
+					{% set url=h.url_for(controller='group', action='read', id=group.name) %}
+					{% set truncate=truncate or 0 %}
+					{% set truncate_title = truncate_title or 0 %}
+					{% set title = group.title or group.name %}
+					<a class="module-image" href="{{ url }}">
+					  <img src="{{ group.image_display_url or h.url_for_static('/base/images/placeholder-group.png') }}" alt="{{ group.name }}" />
+					</a>
+					<h3 class="dataset-heading"><a href="{{ url }}">{{ group.title or group.name }}</a></h3>
+					{% if group.description %}
+					  {% if truncate == 0 %}
+						<p>{{ h.markdown_extract(group.description)|urlize }}</p>
+					  {% else %}
+						<p>{{ h.markdown_extract(group.description, truncate)|urlize }}</p>
+					  {% endif %}
+					{% endif %}
+				
+				</li>
+			{% endfor %}
+		</ul>
+
+	</section>

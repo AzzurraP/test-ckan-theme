@@ -1,0 +1,30 @@
+{% ckan_extends %}
+
+{% block meta %}
+    {{ super() }}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock %}
+
+
+{% block styles %}
+     {{ super() }}
+  
+  {% resource 'example_theme/example_theme.css' %}
+  {% resource 'example_theme/bootstrap-responsive.css' %}
+
+  	  {% resource 'example_theme/owl-carousel/owl.carousel.css' %}
+    {% resource 'example_theme/owl-carousel/owl.theme.css' %}
+
+  
+{% endblock %}
+
+
+  {% block scripts %}
+ {{ super() }}
+ 
+{# resource 'example_theme/FeedEk.js' #}
+{% resource 'example_theme/jquery.rss.js' %}
+{% resource 'example_theme/owl-carousel/owl.carousel.js' %}
+
+
+{% endblock %}

@@ -1,0 +1,5 @@
+
+        [ckan.plugins]
+	# Add plugins here, eg
+	example_theme=ckanext.example_theme.plugin:ExampleThemePlugin
+	

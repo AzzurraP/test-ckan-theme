@@ -1,0 +1,21 @@
+{%
+set output = h.example_theme_most_popular_groups()
+%}
+
+
+          <section class="box  module module-narrow module-shallow">
+            <header class="module-heading media">
+              <div class="media-content">
+                <h3 class="media-heading">GRUPPI</h3>
+              </div>
+            </header>
+
+           <ul id="recent-list" class="unstyled dataset-list">
+    {% for group in output.groups %}
+            <li>{{ group.display_name }}</li>
+
+
+    {% endfor %}
+           </ul>
+         </section>
+

@@ -1,0 +1,15 @@
+{% set stats = h.get_site_statistics() %}
+
+ <header class="info text-right">
+
+<div class="clearfix">
+ <a  href="https://www.facebook.com/pages/Agenda-digitale-dellUmbria/488613727836749" class="social-icon custom-icon-facebook" ></a>
+<a  href="https://twitter.com/AdUmbria" class="social-icon custom-icon-twitter" ></a>
+<span class="color1 seguici-su" >{% trans %}Seguici su{% endtrans %} </span>
+ 
+</div>
+
+<p><a href="/dataset"><span class="big-text color1">{{ h.SI_number_span(stats.dataset_count) }}</span><strong><span class="color2"> {% trans %}dataset pubblicati{% endtrans %}</span></strong></a></p>
+<p><a class="color2" href="mailto:opendata@regione.umbria.it">opendata@regione.umbria.it</a></p>
+<p><a class="color2" href="https://twitter.com/AdUmbria">@ADUmbria</a></p>
+ </header>

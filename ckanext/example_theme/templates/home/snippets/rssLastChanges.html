@@ -1,0 +1,16 @@
+{% resource 'example_theme/feedreader.js' %}
+
+<div class="box">
+  
+	<section class="group-list module module-narrow module-shallow">
+	  <header class="module-heading">
+	  
+		<h3 class="media-heading"><a href="/it/organization/regione-umbria">{% trans %}Ultimi dataset modificati{% endtrans %}</a></h3>
+		
+	  </header>
+	  
+	  <div id="divRssLastChanges" class="padded" data-module="feedreader" data-module-url="http://172.29.0.79:8080/revision/list?format=atom"></div>
+	  
+	</section>
+
+</div>

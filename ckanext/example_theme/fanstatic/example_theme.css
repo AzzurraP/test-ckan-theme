@@ -1,0 +1,449 @@
+body {
+    background: none repeat scroll 0 0 #fff;
+	font-size: 16px;
+}
+
+H1, H2, H3
+{
+color:#b20000;
+}
+
+a {
+    color: #b20000;
+}
+
+.color1
+{
+color:#b20000;
+}
+
+.color2
+{
+color:#444;
+}
+
+.big-text
+{
+ font-size: 38px;
+    font-weight: 600;
+}
+.dx-logo
+{
+margin-top: 45px;
+width: 281px;
+}
+
+.header-logo
+{
+min-height: 110px;
+}
+
+.row-fluid [class*="span"]
+{
+min-height:0;
+}
+
+.account-masthead {
+    background: url("../../../base/images/bg.png") repeat scroll 0 0 #b20000;
+    border-bottom: 1px solid #fff;
+}
+
+.masthead {
+    background: url("../../../base/images/bg.png") repeat scroll 0 0 #b20000;
+   font-size: 18px;
+   min-height:46px;
+}
+.masthead .content {
+    margin: 6px auto 0;
+    position: inherit;
+    right: inherit;
+    top: inherit;
+	
+}
+
+.hero:after {
+    background-color: #fff;
+}
+
+.hero {
+    background: none;
+}
+
+.intro P
+{
+text-align: justify;
+}
+.module
+{
+	margin-top:0;
+}
+
+.module-heading
+{
+text-align:center;
+}
+
+.group-list .module-heading h3 a {
+    color: #b20000;
+}
+
+[role="main"], .main {
+    background: none;
+}
+
+.footer-links, .attribution {
+    float: none;
+    margin-left: inherit;
+    width: auto;
+}
+
+
+.site-footer {
+    background: none;
+	border-top: solid 20px #b20000;
+	margin-top:20px;
+	background-color:#efefef;
+	color:#666;
+	padding-top:0;
+}
+
+.site-footer a {
+    color: #666;
+}
+
+.site-footer, .site-footer label, .site-footer small {
+    color: #666;
+}
+
+
+
+
+
+.site-footer ul li { float: left;list-style-type: none; }
+.site-footer ul li:after { content: "|"; padding: 0 .5em;color:#b20000; }
+
+.site-footer ul li:last-child:after {
+    content:"";
+    }
+
+.padded{
+padding: 10px;
+}
+
+.seguici-su{
+ float: right;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.social-icon  {
+ margin-bottom: 10px;
+ width: 35px;
+ height:35px;
+ display:block;
+ background-size: 35px auto;
+  float: right;
+   padding-right: 5px;
+  background-repeat: no-repeat;
+}
+
+.custom-icon-twitter {
+   background-image: url('/images/social-twitter.png');
+}
+
+.custom-icon-twitter:hover {
+   background-image: url('/images/social-twitter-hover.png');
+}
+.custom-icon-facebook {
+   background-image: url('/images/social-facebook.png');
+}
+
+.custom-icon-facebook:hover {
+	background-image: url('/images/social-facebook-hover.png');
+}
+
+.attribution .ckan-footer-logo{
+	background-image: url('/images/ckan-logo-small.png');
+}
+
+
+.twitter-box{
+	margin-top: 20px;
+}
+
+.site-footer address {
+    font-size: 14px;
+}
+
+
+.ie9 .site-footer ul li, 
+.ie10 .site-footer ul li{
+	padding:5px;
+	border-right: solid 2px #b20000;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.footer-logos-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.footer-logos-row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+
+[class*="span"] {
+    margin-bottom: 10px;
+}
+
+/*Large */
+@media (min-width: 1200px) {
+ .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container
+  {
+	width:940px;
+ }
+}
+
+
+
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+ .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container
+  {
+	width:auto;
+ }
+
+ .masthead .content {
+    width: auto;
+}
+
+.nav-pills > li {
+    float: none;
+    
+}
+
+ .footer-logos-column {
+    width: 100%;
+  }
+
+}
+
+/* All Smartphones in landscape ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* All Smartphones in portrait ----------- */
+@media only screen 
+and (max-width : 479px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/***** ANDROID DEVICES *****/
+
+/* Android 240 X 320 ----------- */
+@media only screen
+and (max-width: 241px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Android(Samsung Galaxy) in portrait 380 X 685 ----------- */
+@media only screen
+and (min-width: 375px)
+and (max-width: 385px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Android(Samsung Galaxy) in Landscape 685 X  380 ----------- */
+@media only screen
+and (min-width: 680px)
+and (max-width: 690px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Portrait 600 X 1024 ----------- */
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Landscape 1024 X 600 ----------- */
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1030px){
+/* YOUR STYLE GOES HERE */
+}
+
+/***** ALL GENERATION IPADS *****/
+
+/* iPads in portrait and landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* YOUR STYLE GOES HERE */  
+}
+
+/* iPad in landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad in portrait----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+/* YOUR STYLE GOES HERE */
+}
+
+
+
+/***** Retina IPAD 3 & 4*****/
+
+/* Retina iPad 3 & 4 in portrait and landscape----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+/* YOUR STYLE GOES HERE */
+}
+
+
+
+
+/***** IPAD 1 & 2 (ALSO IPAD MINI)*****/
+
+/* iPad 1 & 2 in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in landscape ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+/* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in portrait ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio: 1){
+/* YOUR STYLE GOES HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* YOUR STYLE GOES HERE */
+}
+
+/* Only iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* YOUR STYLE GOES HERE */
+}
+
+
+
+
+/* TEST */
+
+
+
+/* @media only screen 
+
+and (max-width : 1024px) 
+{
+ .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container
+  {
+	width:auto;
+ }
+
+ .masthead .content {
+    width: auto;
+}
+
+
+
+
+} */
+
+
+
+
+
+
+.twitter-timeline {
+
+  height: 222px;
+}
+.module-image img {
+    border: 1px solid;
+    max-width: 85px;
+    width: 85px;
+    padding: 2px;
+}
+.module-image {
+    width: 85px;
+}
+.row1 {
+	background-color:#f6f6f6;
+	padding-top:20px;
+}
+.row2 {
+	padding-top:20px;
+}
+
+div#divRss {
+	min-height: 435px;
+
+}
